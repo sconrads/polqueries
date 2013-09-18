@@ -1,0 +1,2 @@
+Greater than 2012-01-12T20:15:31Z:
+db.pol.find({ 'prices.time': { $gte : new ISODate("2012-01-12T20:15:31Z") }}).pretty()
